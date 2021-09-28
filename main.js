@@ -18,7 +18,7 @@ const averageValue = +(sumGoods / 3).toFixed(2);
 
 const randomDiscount = Math.round(Math.random() * 100);
 
-const paymentValue = (sumGoods -  randomDiscount).toFixed(2);
+const paymentValue = +(sumGoods -  randomDiscount).toFixed(2);
 const netProfit = Math.trunc(sumGoods) / 2 - Math.round(randomDiscount);
 
 
